@@ -23,7 +23,7 @@ if not checkDataset():
     print("Dataset is empty. Please run face_dataset.py to create dataset.")
 else:
     recognizer = cv2.face.LBPHFaceRecognizer_create()
-    face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+    face_cascade = cv2.CascadeClassifier('../haarcascade_frontalface_default.xml')
 
     #train
     print("Training...")
