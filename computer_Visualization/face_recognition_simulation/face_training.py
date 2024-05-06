@@ -2,7 +2,6 @@ import cv2
 import os
 import numpy as np
 
-#face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml') #if needed.
 def checkDataset():
     if not os.path.exists('dataset/') & len(os.listdir('dataset/')) != 0:
         return True
