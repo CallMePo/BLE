@@ -1,8 +1,8 @@
 import cv2
 
 recognizer = cv2.face.LBPHFaceRecognizer_create()
-recognizer.read('face_model.yml')
-face_cascade = cv2.CascadeClassifier('../haarcascade_frontalface_default.xml')
+recognizer.write('face_model.yml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 id = 0
