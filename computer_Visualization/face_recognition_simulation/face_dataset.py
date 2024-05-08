@@ -14,7 +14,7 @@ dataset_path='dataset/'
 if not os.path.exists(dataset_path):
     os.mkdir(dataset_path)
 
-person_id = 1
+person_id = 2 #change this to your own ID
 count = 0
 while True:
     _, frame = cap.read()
